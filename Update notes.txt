@@ -1,0 +1,3 @@
+8/14/2016
+-Remote server GIT is established to store code locally and on server as well
+-SourceTree SW is referred to manage the code and files
