@@ -1,7 +1,9 @@
 # Here's some new strange stuff, remember type it exactly.
 
 days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug" #it is \, not /
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug" 
+#it is \, not /; \n a new line character into string
+# \ escape sequence is to escape a single-quote or douuble-quote
 
 print "Here are the days: ", days
 print "Here are the months: ", months

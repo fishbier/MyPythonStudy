@@ -7,6 +7,8 @@
 tabby_cat = "\tI'm tabbled in." # \t means horizontale Tab (TAB)
 persian_cat = "I'm split\non a line." # \n means ASCII linefeed (LF)
 backslash_cat = "I'm \\ a \\ cat." # \\ means \
+# \N{name} means character named name in the Unicode database
+# \r means carriage return
 
 fat_cat = """
 I'll do a list:
@@ -19,3 +21,7 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+while True:
+	for i in ["/","-","|","\\","|","*","&"]:
+		print "%s\r" % i,
